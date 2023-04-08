@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #22272E;
+}
+
+.logo{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    color: #C99D71;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Rampart One', cursive;
+}
+
+.descricao{
+    color: #C99D71;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-restart{
+    background-color: #FF6961;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-restart:hover{
+    background-color: #FF2810;
+}
+
+.score-container{
+    margin-bottom: 50px;
+}
+
+.score{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Rampart One', cursive;
+}
+
+.total{
+    padding-top: 20px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Rampart One', cursive;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autor{
+    color: #d8bb9d;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto', cursive;
+}
